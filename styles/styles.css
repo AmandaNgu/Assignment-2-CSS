@@ -1,0 +1,61 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kalam:wght@300&family=Nanum+Pen+Script&display=swap');
+
+html, body,main, header{
+    height: 100%;
+    
+}
+
+html{
+    background-image:url(../images/Screenshot\ 2023-02-08\ 214357.png);
+    
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
+.title,h1{
+    
+    color:blue;
+    font-size: 45px;
+    position: relative;
+    left: 950px;
+}
+.title,h2{
+    color: blue;
+    position: relative;
+    left: 1150px;
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    position: relative;
+    left: 500px;
+}
+.cursive{
+    font-family: 'Dancing Script',serif;
+    font-size: 30px;
+    color: #E75480;
+    text-shadow: 0.5px 0.5px 0.5px #0e0e0e;
+    font-weight: bold;
+}
+
+.longNote{
+    font-family:'Kalam',sans-serif;
+    font-size: 30px;
+    color:#FFFF57;
+    text-shadow: 0.5px 0.5px 0.5px #0e0e0e;
+    font-style: oblique;
+}
+.sad{
+    font-family:'Nanum Pen Script', sans-serif;
+    color:#39546d;
+    text-shadow: 0.5px 0.5px 0.5px #0e0e0e;
+    font-style: italic;
+
+}
+
+
+
